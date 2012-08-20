@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_left_image01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/welcome_01"
+            android:contentDescription="@string/image_desc" />
+
+        <ImageView
+            android:id="@+id/iv_left_image02"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:src="@drawable/welcome_02"
+            android:contentDescription="@string/image_desc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_start_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:orientation="horizontal" >
+
+        <!-- 这里面不能是Button，不然父控件不能响应点击事件 -->
+
+        <TextView
+            android:id="@+id/tv_left_btn01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/start_button_01"
+            android:gravity="center"
+            android:text="@string/text_start_one"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tv_left_btn02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/start_button_02"
+            android:gravity="center"
+            android:text="@string/text_start_two"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</RelativeLayout>

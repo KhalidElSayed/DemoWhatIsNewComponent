@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">DemoWhatIsNewComponent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="text_start_one">开</string>
+    <string name="text_start_two">始</string>
+    <string name="text_one">1</string>
+    <string name="text_two">2</string>
+    <string name="text_three">3</string>
+    <string name="text_four">4</string>
+    <string name="image_desc">This is ImageView desc</string>
+</resources>
